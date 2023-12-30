@@ -1,0 +1,166 @@
+.div2 {
+    display: flex;
+    height: 12vh;
+    background-color: #ED5353;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin-bottom: 40px;
+}
+
+.img3 {
+    position: absolute;
+    right: 100px;
+    height: 12vh;
+    width: 300px;
+}
+
+.p1 {
+    position: absolute;
+    top: 3vh;
+    left: 100px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.div21 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 470px;
+}
+
+.div22 {
+    padding: 2px 15px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.div23 {
+    margin-left: 15px;
+    padding: 2px 15px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    color: #ED5353;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.div24 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 470px;
+}
+
+.div25 {
+    padding: 2px 15px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.div26 {
+    padding: 2px 15px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.div27 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div4 {
+    width: 70vw;
+    min-height: 25vh;
+    box-shadow: 0px 0px 22px 2px #FF202040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div41 {
+    width: 85%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.div42 {
+    width: 85%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.div43 {
+    margin-right: 20px;
+}
+
+.div44 {
+    width: 100%;
+    min-height: 40px;
+    max-height: 90px;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div45 {
+    height: 40px;
+    color: #ED5353;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.image4 {
+    position: absolute;
+    left: 30px;
+    width: 20px;
+    height: 20px;
+}
+
+.input1 {
+    width: 100%;
+    outline: none;
+    height: 50px;
+    border: 2px solid #E3E3E3;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 15px 5px 65px;
+}
+
+.div5 {
+    width: 70vw;
+    margin-top: 70px;
+}

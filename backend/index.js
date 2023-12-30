@@ -6,6 +6,8 @@ import cors from 'cors';
 
 import userRoutes from './routes/userRoutes.js';
 import jobRoutes from './routes/jobRoutes.js';
+import skillRoutes from './routes/skillRoutes.js';
+
 
 
 const app = express();
@@ -23,6 +25,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use('/api/user', userRoutes);
 app.use('/api/job', jobRoutes);
+app.use('/api/skill', skillRoutes);
 
 
 

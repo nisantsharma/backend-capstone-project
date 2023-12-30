@@ -47,6 +47,10 @@ const jobSchema = mongoose.Schema({
     recruiterName: {
         type: String,
         required: true
+    },
+    information: {
+        type: String,
+        required: true
     }
 }, { timestamps: true });
 
