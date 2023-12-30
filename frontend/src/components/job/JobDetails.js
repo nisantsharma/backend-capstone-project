@@ -73,7 +73,7 @@ const JobDetails = ({ job }) => {
                     <div style={{ display: 'flex', color: '#999999', marginBottom: '10px' }}>
                         <p style={{ marginRight: '20px' }}>1w ago</p>
                         <p style={{ marginRight: '20px' }}>{job?.jobType}</p>
-                        <img style={{ marginRight: '20px' }} width='20px' height='20px' src={job?.logoUrl} alt='image 1' />
+                        <img style={{ marginRight: '20px' }} width='20px' height='20px' src={job?.logoUrl} alt='triangle' />
                         <p>{job?.companyName}</p>
                     </div>
 
@@ -116,7 +116,7 @@ const JobDetails = ({ job }) => {
                                     alignItems: 'center',
                                     marginBottom: '5px'
                                 }}>
-                                <img width='20px' height='20px' style={{ marginRight: '5px' }} src={moneyfill} alt='money image' />
+                                <img width='20px' height='20px' style={{ marginRight: '5px' }} src={moneyfill} alt='money' />
                                 <span>Stipend</span>
                             </div>
 
@@ -125,7 +125,7 @@ const JobDetails = ({ job }) => {
 
                         <div>
                             <div style={{ color: '#999999', display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
-                                <img width='20px' height='17px' style={{ marginRight: '5px' }} src={calender} alt='money image' />
+                                <img width='20px' height='17px' style={{ marginRight: '5px' }} src={calender} alt='money' />
                                 <span>Duration</span>
                             </div>
                             <span>6 Months</span>

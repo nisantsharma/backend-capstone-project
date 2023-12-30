@@ -77,7 +77,7 @@ const Signup = () => {
                     <input onChange={inputHandler} type='text' name='mobile' placeholder='Mobile' className={styled.input1} />
                     <input onChange={inputHandler} type='text' name='password' placeholder='Password' className={styled.input1} />
                     <div className={styled.div211}>
-                        <img width='20px' height='20px' src={conditionImage} alt='terms and condiion image' />
+                        <img width='20px' height='20px' src={conditionImage} alt='terms and condiion' />
                         <p className={styled.p21}>By creating an account, I agree to our terms of use and privacy policy</p>
                     </div>
                     <div className={styled.div22} onClick={signUpHandler}>Create Account</div>
@@ -86,7 +86,7 @@ const Signup = () => {
             </div>
             <div className={styled.div3}>
                 <p className={styled.p4}>Your Personal Job Finder</p>
-                <img width='100%' height='100%' src={loginImage} alt='login page image' />
+                <img width='100%' height='100%' src={loginImage} alt='login page' />
             </div>
         </div>
     )

@@ -75,7 +75,7 @@ const Login = () => {
             </div>
             <div className={styled.div3}>
                 <p className={styled.p4}>Your Personal Job Finder</p>
-                <img width='100%' height='100%' src={loginImage} alt='login page image' />
+                <img width='100%' height='100%' src={loginImage} alt='login page' />
             </div>
         </div>
     )
