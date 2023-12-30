@@ -249,6 +249,10 @@ const JobList = ({ setJob }) => {
         }
     }
 
+    const searchbuttonHandler = () => {
+        getFilteredJobs();
+    }
+
 
     const getFilteredJobs = async () => {
         try {
@@ -325,6 +329,23 @@ const JobList = ({ setJob }) => {
                     <div className={styled.div41}>
                         <img className={styled.image4} src={searchImage} alt='search icon' />
                         <input onChange={inputHandler} onKeyDown={buttonHandler} className={styled.input1} type='text' placeholder='Type any job title' />
+                        <div
+                            onClick={searchbuttonHandler}
+                            style={{
+                                width: '137px',
+                                height: '50px',
+                                padding: '5px 20px 5px 10px',
+                                color: 'white',
+                                fontSize: '20px',
+                                backgroundColor: '#ED5353',
+                                borderRadius: '5px',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                cursor: 'pointer'
+                            }}>
+                            Search
+                        </div>
                     </div>
                     <div className={styled.div42}>
                         <div className={styled.div43}>
@@ -421,11 +442,10 @@ const JobList = ({ setJob }) => {
                                     <></>
                                 )
                             }
-
                         </div>
-
                     </div>
                 </div>
+
                 <div className={styled.div5}>
                     {
                         jobArr.map((item, ind) => {
