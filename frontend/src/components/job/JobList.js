@@ -81,13 +81,13 @@ const JobCard = ({ item, setJob }) => {
                 <div>
                     <p style={{ marginBottom: '5px', fontWeight: 'bold' }}>{item.jobPosition}</p>
                     <div style={{ display: 'flex', alignItems: 'center', color: '#9C9C9C', marginBottom: '20px' }}>
-                        <img src={peopleImage} width='15px' height='13px' style={{ marginRight: '10px' }} alt='people image' />
+                        <img src={peopleImage} width='15px' height='13px' style={{ marginRight: '10px' }} alt='people' />
                         <p style={{ marginRight: '20px' }}>11-50</p>
 
-                        <img src={rupeeImage} width='8px' height='13px' style={{ marginRight: '8px' }} alt='rupee image' />
+                        <img src={rupeeImage} width='8px' height='13px' style={{ marginRight: '8px' }} alt='rupee' />
                         <p style={{ marginRight: '25px', fontSize: '17px' }}>{item.monthlySalary}</p>
 
-                        <img src={indianFlagImage} width='35px' height='35px' style={{ marginRight: '10px' }} alt='indian flag image' />
+                        <img src={indianFlagImage} width='35px' height='35px' style={{ marginRight: '10px' }} alt='indian flag' />
                         <p>{item.location}</p>
                     </div>
                     <div

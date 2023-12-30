@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
@@ -52,13 +52,11 @@ const AddJob = ({ job }) => {
         try {
             const { token } = JSON.parse(localStorage.getItem('user'));
 
-            const res = await axios.post(`${BACKEND_URL}/api/job/create`, obj, {
+            await axios.post(`${BACKEND_URL}/api/job/create`, obj, {
                 headers: {
                     'Authorization': `${token}`
                 }
             });
-            const savedJob = res.data.data;
-            // console.log(savedJob);
 
             navigate('/');
         }
@@ -72,14 +70,11 @@ const AddJob = ({ job }) => {
         try {
             const { token } = JSON.parse(localStorage.getItem('user'));
 
-            const res = await axios.put(`${BACKEND_URL}/api/job/update/${job?._id}`, obj, {
+            await axios.put(`${BACKEND_URL}/api/job/update/${job?._id}`, obj, {
                 headers: {
                     'Authorization': `${token}`
                 }
             });
-
-            const updatedJob = res.data.data;
-            // console.log(updatedJob);
 
             navigate('/');
         }
@@ -436,7 +431,7 @@ const AddJob = ({ job }) => {
                     top: '50px'
                 }}>Recruiter add job details here
                 </p>
-                <img width='100%' height='100%' src={jobPageImage} alt='job page image' />
+                <img width='100%' height='100%' src={jobPageImage} alt='job page' />
             </div>
         </div>
     )
